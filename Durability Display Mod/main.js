@@ -2,10 +2,10 @@ var Display = UI.getContext().getWindowManager().getDefaultDisplay();
 var Width = Display.getWidth();
 var Height = Display.getHeight();
 var Display_Width = ( 20 / 9 ) / ( Width / Height ) * 1000;
-
+var Max_HeightUnit = Height / Width * 1000
 
 var DurabilityHUD = new UI.Window({
-    location : { x : 0 , y : 120 , width : Display_Width , height : Display_Width * 3 / 20 },
+    location : { x : 0 , y : Max_HeightUnit * 4 / 15 , width : Display_Width , height : Display_Width * 3 / 20 },
     drawing : [ 
         { type : "background" , color : android.graphics.Color.TRANSPARENT }
     ],
