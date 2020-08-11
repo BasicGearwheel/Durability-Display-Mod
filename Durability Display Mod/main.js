@@ -11,11 +11,11 @@ var DurabilityHUD = new UI.Window({
     ],
     
     elements : {
-        "slot_Carried" : { type : "slot" , x : 0 , y : 0 , size : 30 , visual : false , needClean : true , bitmap : "slot_transparent" },
-        "slot_Armor0" : { type : "slot" , x : 0 , y : 30 , size : 30 , visual : false , needClean : true , bitmap : "slot_transparent" },
-        "slot_Armor1" : { type : "slot" , x : 0 , y : 60 , size : 30 , visual : false , needClean : true , bitmap : "slot_transparent" },
-        "slot_Armor2" : { type : "slot" , x : 0 , y : 90 , size : 30 , visual : false , needClean : true , bitmap : "slot_transparent" },
-        "slot_Armor3" : { type : "slot" , x : 0 , y : 120 , size : 30 , visual : false , needClean : true , bitmap : "slot_transparent" },
+        "slot_Carried" : { type : "slot" , x : 0 , y : 0 , size : 30 , visual : false , bitmap : "slot_transparent" },
+        "slot_Armor0" : { type : "slot" , x : 0 , y : 30 , size : 30 , visual : false , bitmap : "slot_transparent" },
+        "slot_Armor1" : { type : "slot" , x : 0 , y : 60 , size : 30 , visual : false , bitmap : "slot_transparent" },
+        "slot_Armor2" : { type : "slot" , x : 0 , y : 90 , size : 30 , visual : false , bitmap : "slot_transparent" },
+        "slot_Armor3" : { type : "slot" , x : 0 , y : 120 , size : 30 , visual : false , bitmap : "slot_transparent" },
         "text_Carried" : { type : "text" , x : 35 , y : 10 , text : "" , font : { size : 10 , color : android.graphics.Color.WHITE } },
         "text_Armor0" : { type : "text" , x : 35 , y : 40 , text : "" , font : { size : 10 , color : android.graphics.Color.WHITE } },
         "text_Armor1" : { type : "text" , x : 35 , y : 70 , text : "" , font : { size : 10 , color : android.graphics.Color.WHITE } },
