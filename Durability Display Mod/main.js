@@ -29,13 +29,12 @@ DurabilityHUD.setTouchable( false );
 var container = new UI.Container();
 
 Callback.addCallback( "NativeGuiChanged" , function ( screenName ) {
-if ( screenName == "in_game_play_screen" ) { 
-    container.openAs( DurabilityHUD );
-}
-else {
-    DurabilityHUD.close();
-    container.close();
-}
+
+screenName == "in_game_play_screen" && container.openAs( DurabilityHUD );
+
+screenName != "in_game_play_screen" && DurabilityHUD.close();
+screenName != "in_game_play_screen" && container.close();
+
 });
 
 Callback.addCallback( "tick" , function () {
