@@ -1,0 +1,42 @@
+{
+    "properties" : {
+        "enabled" : {
+            "name" : {
+                "en" : "Enabled Mod" ,
+                "zh" : "启用Mod"
+            }
+        } ,
+        "Display_Score_Rate" : {
+            "name" : {
+                "en" : "Display Score Rate" ,
+                "zh" : "分率显示"
+            }
+        } ,
+        "Left_Hand" : {
+            "name" : {
+                "en" : "Display Left Hand" ,
+                "zh" : "左手物品显示"
+            }
+        } ,
+        "Maximum_Number_Of_Characters" : {
+            "name" : {
+                "en" : "Maximum Number Of Characters" ,
+                "zh" : "最大耐久度字符数量"
+            },
+            "displayIf" : "Display_Score_Rate" ,
+            "type" : "SeekBar" ,
+            "min" : 0 ,
+            "max" : 20
+        } ,
+        "x" : {
+            "type" : "SeekBar" ,
+            "min" : 0 ,
+            "max" : 1000
+        } ,
+        "y" : {
+            "type" : "SeekBar" ,
+            "min" : 0 ,
+            "max" : 1000
+        }
+    }
+}
